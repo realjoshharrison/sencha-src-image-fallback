@@ -34,6 +34,8 @@
       if(this.$imgs.length) {
         this.test_sencha_availability();
       }
+
+      return this;
     },
     
     test_sencha_availability : function() {
